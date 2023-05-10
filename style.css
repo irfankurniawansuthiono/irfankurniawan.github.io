@@ -151,7 +151,7 @@ header{
 
 /* audio */
 audio{
-    display: none;
+    margin-top: 20px;
 }
 /* contact */
 #contact{
