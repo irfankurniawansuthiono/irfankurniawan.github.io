@@ -3,6 +3,20 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=irfankurniawansuthiono&label=Profile%20views&color=0e75b6&style=flat" alt="irfankurniawansuthiono" /> </p>
 
+- 🔭 I’m currently working on **my portfolio**
+
+- 🌱 I’m currently learning **JavaScript**
+
+- 👨‍💻 All of my projects are available at [https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/](https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/)
+
+- 💬 Ask me about **html, css, python**
+
+- 📫 How to reach me **kurniawanmarc93@gmail.com**
+
+- 📄 Know about my experiences [https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/](https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/)
+
+- ⚡ Fun fact **I am a loner who prefers to stay at home**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/suthiono_irfan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="suthiono_irfan" height="30" width="40" /></a>
