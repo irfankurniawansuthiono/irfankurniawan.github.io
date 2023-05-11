@@ -7,13 +7,13 @@
 
 - 🌱 I’m currently learning **JavaScript**
 
-- 👨‍💻 All of my projects are available at [https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/](https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/)
+- 👨‍💻 All of my projects are available at [https://irfankurniawansuthiono.github.io](https://irfankurniawansuthiono.github.io)
 
 - 💬 Ask me about **html, css, python**
 
 - 📫 How to reach me **kurniawanmarc93@gmail.com**
 
-- 📄 Know about my experiences [https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/](https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/)
+- 📄 Know about my experiences [https://irfankurniawansuthiono.github.io](https://irfankurniawansuthiono.github.io)
 
 - ⚡ Fun fact **I am a loner who prefers to stay at home**
 
