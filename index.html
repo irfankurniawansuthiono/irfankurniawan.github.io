@@ -12,13 +12,10 @@
   <body>
     <header>
       <!-- navigation bar -->
-      <nav
-        class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top"
-        data-bs-theme="dark"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">My Portfolio</a>
-          <button
+      <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary fixed-top"
+      data-bs-theme="dark">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -27,15 +24,15 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto nav-pills">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" aria-current="page" href="#scrollspyHeading1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#scrollspyHeading2">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -55,18 +52,21 @@
                 </ul>
       
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#scrollspyHeading3">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#scrollspyHeading4">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      
     </header>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
     <main>
       <!-- jumbotron -->
+      <div id="scrollspyHeading1">
         <div class="container-fluid">
             <div class="jumbotron">
                 <div id="home"></div>
@@ -84,6 +84,7 @@
 
 
         <!-- about -->
+        <div id="scrollspyHeading2">
         <div id="about"></div> 
         <div class="container-fluid about-container">
             <div class="aboutme">
@@ -98,153 +99,206 @@
                 <a class="btn btn-dark btn-lg disabled aboutviewmore" href="#about" role="button">View More &nbsp;<i class="bi bi-box-arrow-up-right" style="font-size: 20px;"></i> </a>
             </div>
         </div>
+      </div>
 
 
         <!-- projects -->
-        <div id="projects"></div>
-        <div class="container-fluid project_container">
-            <h4 class="myproject">My Projects</h4>
-            <div class="container text-center">
-                <div class="row ms-auto">
+        <div id="scrollspyHeading3">
+          <div id="projects"></div>
+          <div class="container-fluid project_container">
+              <h4 class="myproject">My Projects</h4>
+              <div class="container text-center">
+                  <div class="row ms-auto">
 
-                  <!-- projek 1 -->
-                  <div class="col">
-                    <div class="card" style="width: 30rem;">
-                        <img src="img/projek 1/projek1_thumbnail.png" class="card-img-top" alt="blogspot">
-                        <div class="card-body">
-                          <h5 class="card-title">BlogSpot</h5>
-                          <p class="card-text">This is the first website that I created when I first learned how to make a website.</p>
-                          <div class="dropdown">
-                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bi bi-eye"></i> <b>VIEW</b> 
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="https://soethiono.blogspot.com/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
-                              <li><a class="dropdown-item disabled" href="#" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
-                            </ul>
-                        </div>
-                        </div>
+                    <!-- projek 1 -->
+                    <div class="col">
+                      <div class="card" style="width: 30rem;">
+                          <img src="img/projek 1/projek1_thumbnail.png" class="card-img-top" alt="blogspot">
+                          <div class="card-body">
+                            <h5 class="card-title">BlogSpot</h5>
+                            <p class="card-text">This is the first website that I created when I first learned how to make a website.</p>
+                            <div class="dropdown">
+                              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-eye"></i> <b>VIEW</b> 
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="https://soethiono.blogspot.com/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
+                                <li><a class="dropdown-item disabled" href="#" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
+                              </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <!-- wordpress - projek 2 -->
+                    <div class="col">
+                      <div class="card" style="width: 30rem;">
+                          <img src="img/projek 2/testing-wordpress.png" class="card-img-top" alt="portfolio website pertama">
+                          <div class="card-body">
+                            <h5 class="card-title">Copy and Redesign My Campuss Website</h5>
+                            <p class="card-text">i tried to recreate my campuss landing page website on wordpress and redesign it</p>
+                            <div class="dropdown">
+                              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-eye"></i> <b>VIEW</b> 
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="https://test06859.wordpress.com/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
+                                <li><a class="dropdown-item disabled" href="https://github.com/irfankurniawansuthiono/projek-1" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
+                              </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <!-- projek 3 -->
+                    <div class="col">
+                      <div class="card" style="width: 30rem;">
+                          <img src="img/projek 3/projek3_thumbnail.png" class="card-img-top" alt="portfolio website pertama">
+                          <div class="card-body">
+                            <h5 class="card-title">Portfolio Website - 1</h5>
+                            <p class="card-text">This is my first portfolio website. before this current website</p>
+                            <div class="dropdown">
+                              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-eye"></i> <b>VIEW</b> 
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="https://irfankurniawansuthiono.github.io/projek-1/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/irfankurniawansuthiono/projek-1" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
+                              </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+
+
+                    <!-- projek 4 - current website -->
+                    <div class="col">
+                      <div class="card" style="width: 30rem;">
+                          <img src="img/projek 4/projek4_thumbnail.png" class="card-img-top" alt="portfolio website sekarang">
+                          <div class="card-body">
+                            <h5 class="card-title">Current Portfolio Website</h5>
+                            <p class="card-text">This is my current portfolio website</p>
+                            <div class="dropdown">
+                              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-eye"></i> <b>VIEW</b> 
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item disabled" href="https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/irfankurniawansuthiono/irfankurniawansuthiono.github.io" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
+                              </ul>
+                          </div>
+                          </div>
+                      </div>
                     </div>
                   </div>
-
-
-                  <!-- wordpress - projek 2 -->
-                  <div class="col">
-                    <div class="card" style="width: 30rem;">
-                        <img src="img/projek 2/testing-wordpress.png" class="card-img-top" alt="portfolio website pertama">
-                        <div class="card-body">
-                          <h5 class="card-title">Copy and Redesign My Campuss Website</h5>
-                          <p class="card-text">i tried to recreate my campuss landing page website on wordpress and redesign it</p>
-                          <div class="dropdown">
-                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bi bi-eye"></i> <b>VIEW</b> 
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="https://test06859.wordpress.com/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
-                              <li><a class="dropdown-item disabled" href="https://github.com/irfankurniawansuthiono/projek-1" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                  </div>
-
-
-                  <!-- projek 3 -->
-                  <div class="col">
-                    <div class="card" style="width: 30rem;">
-                        <img src="img/projek 3/projek3_thumbnail.png" class="card-img-top" alt="portfolio website pertama">
-                        <div class="card-body">
-                          <h5 class="card-title">Portfolio Website - 1</h5>
-                          <p class="card-text">This is my first portfolio website. before this current website</p>
-                          <div class="dropdown">
-                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bi bi-eye"></i> <b>VIEW</b> 
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="https://irfankurniawansuthiono.github.io/projek-1/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
-                              <li><a class="dropdown-item" href="https://github.com/irfankurniawansuthiono/projek-1" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                  </div>
-
-
-                  <!-- projek 4 - current website -->
-                  <div class="col">
-                    <div class="card" style="width: 30rem;">
-                        <img src="img/projek 4/projek4_thumbnail.png" class="card-img-top" alt="portfolio website sekarang">
-                        <div class="card-body">
-                          <h5 class="card-title">Current Portfolio Website</h5>
-                          <p class="card-text">This is my current portfolio website</p>
-                          <div class="dropdown">
-                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="bi bi-eye"></i> <b>VIEW</b> 
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item disabled" href="https://irfankurniawansuthiono.github.io/irfankurniawan.github.io/" target="_blank"><i class="bi bi-broadcast"> </i>Live - Preview</a></li>
-                              <li><a class="dropdown-item" href="https://github.com/irfankurniawansuthiono/irfankurniawansuthiono.github.io" target="_blank"><i class="bi bi-github"></i> View Repository</a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                  </div>
+            </div>
+          </div>
         </div>
 
-        <!-- audio -->
-        <audio controls autoplay loop>
-          <source src="music/Confetti - Ghost.mp3" type="audio/mp3">
-          Your browser does not support the audio element.
-        </audio> 
-    </main>
 
-    <!-- contact - footer -->
-    <div id="contact"></div>
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100022097349921&mibextid=ZbWKwL" target="_blank" role="button"
-              ><i class="bi bi-facebook"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/suthiono_irfan" role="button"
-              ><i class="bi bi-twitter"></i
-            ></a>
-      
-            <!-- Google Mail -->
-            <a class="btn btn-outline-light btn-floating m-1" href="mailto:kurniawanmarc93@gmail.com?subject=sapaan&body=Hi%2C%20saya%20tertarik%20bekerja%20sama%20dengan-mu!" target="_blank" role="button"
-              ><i class="bi bi-envelope-at-fill"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/irfan_suthiono" role="button"
-              ><i class="bi bi-instagram"></i
-            ></a>
-      
-            <!-- whatsapp -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://wa.me/6285159411104?text=hai,%20saya%20tertarik%20untuk%20bekerja%20sama%20dengan-mu!" target="_blank" role="button"
-              ><i class="bi bi-whatsapp"></i
-            ></a>
-      
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/irfankurniawansuthiono" role="button" target="_blank"
-              ><i class="bi bi-github"></i
-            ></a>
+        <!-- contact -->
+        <div id="scrollspyHeading4">
+          <div id="contact"></div>
+            <!-- contact -->
+          <section class="contact">
+            <div class="container">
+              <div class="row text-center mb-3">
+                <div class="col">
+                  <h2 class="contacts">Contact Me</h2>
+                </div>
+              </div>
+              <form action="https://formspree.io/f/xzboojey" method="post">
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email address <input type="email" name="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: #f3f4f5" />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Subject
+                        <input type="text" name="subject" class="form-control shadow" id="exampleFormControlInput1" placeholder="subject goes here" style="background-color: #f3f4f5" />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                      <textarea name="message" class="form-control shadow" id="exampleFormControlTextarea1" rows="3" cols="19" style="background-color: #f3f4f5"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <!-- your other form fields go here -->
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    <div class="col-md-3 mb-4">
+                      <button type="submit" class="btn btn-shadow btn-dark">Send</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © <a href="https://getbootstrap.com" class="bi bi-bootstrap-fill"></a> 2023 Copyright:
-          <i class="text-white">Irfan Kurniawan Suthiono</i>
-        </div>
-        <!-- Copyright -->
-      </footer>
+      </div>
+    <!-- akhir contact -->
+    </main>
+</div>
+      <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100022097349921&mibextid=ZbWKwL" target="_blank" role="button"
+                ><i class="bi bi-facebook"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/suthiono_irfan" role="button"
+                ><i class="bi bi-twitter"></i
+              ></a>
+        
+              <!-- Google Mail -->
+              <a class="btn btn-outline-light btn-floating m-1" href="mailto:kurniawanmarc93@gmail.com?subject=sapaan&body=Hi%2C%20saya%20tertarik%20bekerja%20sama%20dengan-mu!" target="_blank" role="button"
+                ><i class="bi bi-envelope-at-fill"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/irfan_suthiono" role="button"
+                ><i class="bi bi-instagram"></i
+              ></a>
+        
+              <!-- whatsapp -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://wa.me/6285159411104?text=hai,%20saya%20tertarik%20untuk%20bekerja%20sama%20dengan-mu!" target="_blank" role="button"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+        
+              <!-- Github -->
+              <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/irfankurniawansuthiono" role="button" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © <a href="https://getbootstrap.com" class="bi bi-bootstrap-fill"></a> 2023 Copyright:
+            <b class="text-white">Irfan Kurniawan Suthiono</b>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
   </body>
 </html>

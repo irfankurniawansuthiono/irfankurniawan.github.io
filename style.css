@@ -14,6 +14,10 @@ header{
     align-items: center;
     
 }
+main{
+    margin-bottom: 4em;
+}
+/* navigation bar */
 .navbar-brand{
     padding-left: 40px;
     background: linear-gradient(90deg, red, yellow, green, blue);
@@ -30,7 +34,7 @@ header{
     padding-right: 40px;
 }
 .nav-item a:hover{
-    color: #f00;
+    color: #0D6EFD;
 }
 
 /* jumbotron */
@@ -153,5 +157,22 @@ audio{
 }
 /* contact */
 #contact{
-    height: 20px;
+    height: 6em;
+}
+.contacts{
+    font-weight: bold;
+    background: linear-gradient(90deg, red, yellow, green, blue);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: right;
+    color: transparent;
+    animation: spin 15s linear infinite;
+}
+.contact{
+    border-radius: 20px;
+background: #e0e0e0;
+box-shadow:  -20px 20px 60px #bebebe,
+             20px -20px 60px #ffffff;
+             width: 80%;
+             margin: auto;
 }
