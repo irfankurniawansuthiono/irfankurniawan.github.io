@@ -32,12 +32,11 @@ main{
 .nav-item{
     font-weight: bold;
     padding-right: 40px;
-    padding-left: 10px;
+    padding: 5px;
 }
 .nav-item a:hover{
     color: #0D6EFD;
 }
-
 /* jumbotron */
 #home{          
     height: 100px;
