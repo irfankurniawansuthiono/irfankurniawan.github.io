@@ -32,6 +32,7 @@ main{
 .nav-item{
     font-weight: bold;
     padding-right: 40px;
+    padding-left: 10px;
 }
 .nav-item a:hover{
     color: #0D6EFD;
