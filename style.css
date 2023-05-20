@@ -5,14 +5,6 @@
 }
 body{
     font-family: "proxima",Arial, Helvetica, sans-serif;
-    background-color: rgb(233, 232, 232);
-}
-header{
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    grid-template-areas: "logo nav";
-    align-items: center;
-    
 }
 main{
     margin-bottom: 4em;
@@ -20,13 +12,12 @@ main{
 /* navigation bar */
 .navbar-brand{
     padding-left: 40px;
-    background: linear-gradient(90deg, red, yellow, green, blue);
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 1000%;
-    transform-origin: right;
+    background-size: 100%;
+    transform-origin: left;
     color: transparent;
-    animation: spin 15s linear infinite;
-    font-weight: bold   ;
+    font-weight: bold;
     font-style: italic;
 }
 .nav-item{
@@ -57,7 +48,8 @@ main{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background: linear-gradient(90deg, red, yellow, green, blue);
+    background: rgb(2,0,36);
+    background: linear-gradient(169deg, #07c8f9 0%, #0d41e1 100%);
     -webkit-background-clip: text;
     background-size: 1000%;
     transform-origin: right;
@@ -74,9 +66,8 @@ main{
 }
 .jumbotron>.profile_picture>img{
     width: 200px;
-    border: 3px solid transparent;
     border-radius: 50%;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid #2B3035;
 }
 
 
@@ -107,10 +98,10 @@ main{
 .aboutme>h4{
     color: #fc0;
     font-weight: bold;
-    background: linear-gradient(90deg, red, yellow, green, blue);
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 1000%;
-    transform-origin: right;
+    background-size: 100%;
+    transform-origin: left;
     color: transparent;
     animation: spin 15s linear infinite;
 }
@@ -126,10 +117,10 @@ main{
 }
 .myproject{
     font-weight: bold;
-    background: linear-gradient(90deg, red, yellow, green, blue);
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 1000%;
-    transform-origin: right;
+    background-size: 100%;
+    transform-origin: left;
     color: transparent;
     animation: spin 15s linear infinite;
 }
@@ -161,10 +152,10 @@ audio{
 }
 .contacts{
     font-weight: bold;
-    background: linear-gradient(90deg, red, yellow, green, blue);
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 1000%;
-    transform-origin: right;
+    background-size: 100%;
+    transform-origin: left;
     color: transparent;
     animation: spin 15s linear infinite;
 }
