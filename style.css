@@ -171,15 +171,8 @@ main{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
- /* button hover */
-button:hover{
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
-    cursor: pointer;
-    border: 1px solid #2B3035 !important;
-}
+
+
 /* contact */
 #contact{
     height: 6em;
