@@ -177,7 +177,6 @@ button:hover{
     outline: none;
     border-radius: 5px;
     background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
-    opacity: 75%;
     cursor: pointer;
     border: 1px solid #2B3035 !important;
 }
