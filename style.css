@@ -9,9 +9,30 @@ body{
 main{
     margin-bottom: 4em;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #4d545a;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    border-radius: 4px;
+}
+
+  /* Handle saat dihover */
+::-webkit-scrollbar-thumb:hover {
+    opacity: 50%;
+}
 /* navigation bar */
 .navbar-brand{
-    padding-left: 40px;
+    margin-left: 40px;
     background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
     -webkit-background-clip: text;
     background-size: 100%;
@@ -25,8 +46,16 @@ main{
     padding-right: 40px;
     padding: 5px;
 }
+.nav-item>.dropdown-toggle{
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%); 
+    -webkit-background-clip: text;  
+}
 .nav-item a:hover{
     color: #0D6EFD;
+}
+.navbar-dark .navbar-nav .show .dropdown-menu {
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%) !important;
+    
 }
 /* jumbotron */
 #home{          
@@ -34,13 +63,13 @@ main{
 }
 @keyframes spin {
     0% {
-        background-position: 100% 0%;
+        background-position: 100%;
     }
     50% {
-        background-position: 0% 100%;
+        background-position: 100% 0%;
     }
     100% {
-        background-position: 100% 0%;
+        background-position : 100% 0%;
     }
 }
 .jumbotron>h1{
@@ -142,9 +171,15 @@ main{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
-/* audio */
-audio{
-    margin-top: 20px;
+ /* button hover */
+button:hover{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    opacity: 75%;
+    cursor: pointer;
+    border: 1px solid #2B3035 !important;
 }
 /* contact */
 #contact{
