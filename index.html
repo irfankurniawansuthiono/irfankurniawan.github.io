@@ -215,7 +215,7 @@
                   <div class="col-md-4">
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label"
-                        >Email address <input type="email" name="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: #f3f4f5" />
+                        >Email address <input type="email" required oninvalid="this.setCustomValidity('maaf data ini tidak boleh kosong')" name="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: #f3f4f5" />
                       </label>
                     </div>
                   </div>
@@ -225,7 +225,7 @@
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label"
                         >Subject
-                        <input type="text" name="subject" class="form-control shadow" id="exampleFormControlInput1" placeholder="subject goes here" style="background-color: #f3f4f5" />
+                        <input type="text" required oninvalid="this.setCustomValidity('maaf data ini tidak boleh kosong')" name="subject" class="form-control shadow" id="exampleFormControlInput1" placeholder="subject goes here" style="background-color: #f3f4f5" />
                       </label>
                     </div>
                   </div>
@@ -235,7 +235,7 @@
                   <div class="col-md-4">
                     <div class="mb-3">
                       <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                      <textarea name="message" class="form-control shadow" id="exampleFormControlTextarea1" rows="3" cols="19" style="background-color: #f3f4f5"></textarea>
+                      <textarea name="message" required oninvalid="this.setCustomValidity('maaf data ini tidak boleh kosong')" class="form-control shadow" id="exampleFormControlTextarea1" rows="3" cols="19" style="background-color: #f3f4f5"></textarea>
                     </div>
                   </div>
                 </div>

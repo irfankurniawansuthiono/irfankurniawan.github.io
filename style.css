@@ -188,12 +188,9 @@ main{
 .contact{
     border-radius: 20px;
     background: #e0e0e0;
-    box-shadow: -20px 20px 60px #bebebe,
-                20px -20px 60px #ffffff;
-    -webkit-box-shadow: -20px 20px 60px #bebebe,
-                        20px -20px 60px #ffffff;
-    -moz-boz-shadow: -20px 20px 60px #bebebe,
-                    20px -20px 60px #ffffff;
+    box-shadow: -20px 20px 60px rgba(190,190,190,1);
+    -webkit-box-shadow: -20px 20px 60px rgba(190,190,190,1);
+    -moz-boz-shadow: -20px 20px 60px rgba(190,190,190,1);
     width: 80%;
     margin: auto;
 }
