@@ -4,7 +4,7 @@
     src: url("font/proxima.otf" format('otf'));
 }
 body{
-    font-family: "proxima",Arial, Helvetica, sans-serif;
+    font-family: "proxima",sans-serif;
 }
 main{
     margin-bottom: 4em;
@@ -112,7 +112,6 @@ main{
     margin-bottom: 10em;
 }
 .aboutme{
-    /* width: 100%; */
     padding: 20px;
     padding-left: none;
     padding-right: none;
