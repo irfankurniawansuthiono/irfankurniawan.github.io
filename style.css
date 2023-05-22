@@ -51,7 +51,7 @@ main{
     -webkit-background-clip: text;  
 }
 .nav-item a:hover{
-    color: #0D6EFD;
+    color: #FD7423;
 }
 .navbar-dark .navbar-nav .show .dropdown-menu {
     background: linear-gradient(169deg, #0061ff 0%, #60efff 100%) !important;
@@ -59,33 +59,34 @@ main{
 }
 /* jumbotron */
 #home{          
-    height: 100px;
+    height: 10em;
 }
+
 @keyframes spin {
     0% {
-        background-position: 100%;
+        background-position: 60% 0%;
     }
     50% {
-        background-position: 100% 0%;
+        background-position: 0% 100%;
     }
     100% {
-        background-position : 100% 0%;
+        background-position : 60% 0%;
     }
 }
-.jumbotron>h1{
+
+.jumbotron h1{
+    font-size: 2em;
     font-weight: bold !important;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    background: rgb(2,0,36);
-    background: linear-gradient(169deg, #07c8f9 0%, #0d41e1 100%);
+    background: linear-gradient(169deg, #0061ff 0%, #FD7423 100%);
     -webkit-background-clip: text;
     background-size: 1000%;
     transform-origin: right;
     color: transparent;
     animation: spin 15s linear infinite;
 }
-.jumbotron>p{
+.jumbotron .container p{
     text-align: center;
 }
 .jumbotron>.profile_picture{
@@ -142,7 +143,7 @@ main{
 
 /* my projects */
 #projects{
-    height: 4em;
+    height: 6em;
 }
 .myproject{
     font-weight: bold;
