@@ -4,7 +4,7 @@
     src: url("font/proxima.otf" format('otf'));
 }
 body{
-    font-family: "proxima",sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 main{
     margin-bottom: 4em;
