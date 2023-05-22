@@ -195,6 +195,14 @@ main{
     box-shadow: -20px 20px 60px rgba(0,0,0,0.5);
     -webkit-box-shadow: -20px 20px 60px rgba(0,0,0,0.5);
     -moz-boz-shadow: -20px 20px 60px rgba(0,0,0,0.5);
-    width: 80%;
     margin: auto;
+}
+
+@media screen and (min-width: 1000px){
+    .contact{
+        width: 80%;
+    }
+    .aboutme{
+        width: 80%;
+    }
 }
