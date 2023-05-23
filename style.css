@@ -223,3 +223,18 @@ main{
         width: 80%;
     }
 }
+
+@media screen and (max-width: 700px){
+    .jumbotron h1{
+        font-size: 1.5em;
+        font-weight: bold !important;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(169deg, #0061ff 0%, #FD7423 100%);
+        -webkit-background-clip: text;
+        background-size: 1000%;
+        transform-origin: right;
+        color: transparent;
+        animation: spin 15s linear infinite;
+    }
+}
