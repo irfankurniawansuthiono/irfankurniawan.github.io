@@ -1,0 +1,225 @@
+/* start here */
+@font-face {
+    font-family: "proxima";
+    src: url("font/proxima.otf" format('otf'));
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    margin-bottom: 4em;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #4d545a;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    border-radius: 4px;
+}
+
+  /* Handle saat dihover */
+::-webkit-scrollbar-thumb:hover {
+    opacity: 50%;
+}
+/* navigation bar */
+.navbar-brand{
+    margin-left: 40px;
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    -webkit-background-clip: text;
+    background-size: 100%;
+    transform-origin: left;
+    color: transparent;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-item{
+    font-weight: bold;
+    padding-right: 40px;
+    padding: 5px;
+}
+.nav-item>.dropdown-toggle{
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%); 
+    -webkit-background-clip: text;  
+}
+.nav-item a:hover{
+    color: #FD7423;
+}
+.navbar-dark .navbar-nav .show .dropdown-menu {
+    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%) !important;
+    
+}
+/* jumbotron */
+#home{          
+    height: 10em;
+}
+
+@keyframes spin {
+    0% {
+        background-position: 60% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position : 60% 0%;
+    }
+}
+
+@keyframes spins {
+    0% {
+        background-position: 60% 0%;
+    }
+    50% {
+        background-position: 0% 60%;
+    }
+    100% {
+        background-position : 60% 0%;
+    }
+}
+
+.jumbotron h1{
+    font-size: 2em;
+    font-weight: bold !important;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(169deg, #0061ff 0%, #FD7423 100%);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: right;
+    color: transparent;
+    animation: spin 15s linear infinite;
+}
+.jumbotron .container p{
+    text-align: center;
+}
+.jumbotron>.profile_picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron>.profile_picture>img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #2B3035;
+}
+
+
+/* aboutme */
+#about{
+    height: 8em;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em;
+}
+.aboutme{
+    padding: 20px;
+    padding-left: none;
+    padding-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+.aboutme>h4{
+    color: #fc0;
+    font-weight: bold;
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: left;
+    color: transparent;
+    animation: spins 15s linear infinite;
+}
+.aboutme>p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+/* my projects */
+#projects{
+    height: 6em;
+}
+.myproject{
+    font-weight: bold;
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    text-transform: uppercase;
+    transform-origin: left;
+    color: transparent;
+    animation: spins 15s linear infinite;
+}
+.project_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.col{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    font-weight: bold;
+}
+.card{ 
+    background: #e0e0e0;
+    margin-top: 3em;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+
+
+/* contact */
+#contact{
+    height: 6em;
+}
+.contacts{
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: left;
+    color: transparent;
+    animation: spins 15s linear infinite;
+}
+.contact{
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: -20px 20px 60px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -20px 20px 60px rgba(0,0,0,0.5);
+    -moz-boz-shadow: -20px 20px 60px rgba(0,0,0,0.5);
+    margin: auto;
+}
+
+@media screen and (min-width: 1000px){
+    .contact{
+        width: 80%;
+    }
+    .aboutme{
+        width: 80%;
+    }
+}
