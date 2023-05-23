@@ -163,6 +163,7 @@ main{
     background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
     -webkit-background-clip: text;
     background-size: 1000%;
+    text-transform: uppercase;
     transform-origin: left;
     color: transparent;
     animation: spins 15s linear infinite;
@@ -197,6 +198,7 @@ main{
 }
 .contacts{
     font-weight: bold;
+    text-transform: uppercase;
     background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
     -webkit-background-clip: text;
     background-size: 1000%;
