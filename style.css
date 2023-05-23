@@ -103,7 +103,7 @@ main{
 
 /* aboutme */
 #about{
-    height: 10em;
+    height: 8em;
 }
 .about-container{
     display: flex;
@@ -172,6 +172,7 @@ main{
 }
 .card{ 
     background: #e0e0e0;
+    margin-top: 3em;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
