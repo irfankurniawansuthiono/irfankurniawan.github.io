@@ -74,6 +74,18 @@ main{
     }
 }
 
+@keyframes spins {
+    0% {
+        background-position: 60% 0%;
+    }
+    50% {
+        background-position: 0% 60%;
+    }
+    100% {
+        background-position : 60% 0%;
+    }
+}
+
 .jumbotron h1{
     font-size: 2em;
     font-weight: bold !important;
@@ -129,12 +141,12 @@ main{
 .aboutme>h4{
     color: #fc0;
     font-weight: bold;
-    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 100%;
+    background-size: 1000%;
     transform-origin: left;
     color: transparent;
-    animation: spin 15s linear infinite;
+    animation: spins 15s linear infinite;
 }
 .aboutme>p{
     padding-left: 20px;
@@ -148,12 +160,12 @@ main{
 }
 .myproject{
     font-weight: bold;
-    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 100%;
+    background-size: 1000%;
     transform-origin: left;
     color: transparent;
-    animation: spin 15s linear infinite;
+    animation: spins 15s linear infinite;
 }
 .project_container{
     display: flex;
@@ -185,12 +197,12 @@ main{
 }
 .contacts{
     font-weight: bold;
-    background: linear-gradient(169deg, #0061ff 0%, #60efff 100%);
+    background: linear-gradient(169deg, #0D40E1 0%, #60efff 100%);
     -webkit-background-clip: text;
-    background-size: 100%;
+    background-size: 1000%;
     transform-origin: left;
     color: transparent;
-    animation: spin 15s linear infinite;
+    animation: spins 15s linear infinite;
 }
 .contact{
     border-radius: 20px;
