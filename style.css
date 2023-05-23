@@ -215,7 +215,7 @@ main{
     margin: auto;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 600px){
     .contact{
         width: 80%;
     }
@@ -223,8 +223,12 @@ main{
         width: 80%;
     }
 }
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
+    .aboutme p{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 400px){
     .jumbotron h1{
         font-size: 1.5em;
         font-weight: bold !important;
@@ -236,5 +240,8 @@ main{
         transform-origin: right;
         color: transparent;
         animation: spin 15s linear infinite;
+    }
+    .aboutme #hilangkandiandro{
+        display: none !important;
     }
 }
